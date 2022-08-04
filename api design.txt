@@ -1,0 +1,18 @@
+need to update this file 
+
+
+Get -> /api/policyCategories  //it will show home and health 
+Get -> /api/healthPolicies    //it will list the policies in health insurance
+Get -> /api/homePolicies      //it will list policies in home insurance
+
+Get -> /api/admin             //fetch the admin details (for validation purpose)
+
+Post -> /api/user/            //it will save the details of the user
+
+Get -> /api/user              //it will fetch the user details (for validation purpose)
+Get -> /api/healthPolicies/healthid  //it fetch the deatils of particular health policy
+
+USER OPERATIONS
+
+Get -> /api/healthPolicies/healthid  //it fetch the deatils of particular health policy
+Get -> /api/homePolicies/homeid  //it fetch the deatils of particular home policy
