@@ -1,18 +1,33 @@
-need to update this file 
+Insurance Management API
 
+list of users ---->				 http://localhost:8080/api/userses--->														get
+lis of insurance categories----->		 http://localhost:8080/api/insurancecategories---->   											get
+list of home insurance policie----->       http://localhost:8080/api/homeinsurances---->													get
+list of health insurance policies----->	 http://lost:8080/api/healthinsurances---->													get
+admins list---->   				 http://localhost:8080/api/admins---->														get
 
-Get -> /api/policyCategories  //it will show home and health 
-Get -> /api/healthPolicies    //it will list the policies in health insurance
-Get -> /api/homePolicies      //it will list policies in home insurance
+search by username--->				 http://localhost:8080/api/userses/search/findByNameIgnoreCase?userName=arjun---->							get
 
-Get -> /api/admin             //fetch the admin details (for validation purpose)
+search by homeinsurance policy name---->   http://localhost:8080/api/homeinsurances/search/findByPolicynameIgnoreCase?userName=Electrical%20Breakdown%20policy---->get
+search by health insurance policy names--->http://localhost:8080/api/healthinsurances/search/findByPolicynameIgnoreCase?userName=Diabetes%20Safe%20Insurance%20Policy--->get
 
-Post -> /api/user/            //it will save the details of the user
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Get -> /api/user              //it will fetch the user details (for validation purpose)
-Get -> /api/healthPolicies/healthid  //it fetch the deatils of particular health policy
+add of user ---->				       http://localhost:8080/api/userses--->														post
+add  insurance categorie----->		 http://localhost:8080/api/insurancecategories---->   											post
+add  home insurance policy----->           http://localhost:8080/api/homeinsurances---->													post
+add of health insurance policy----->	 http://lost:8080/api/healthinsurances---->													post
+add admins ---->   				 http://localhost:8080/api/admins---->														post
 
-USER OPERATIONS
-
-Get -> /api/healthPolicies/healthid  //it fetch the deatils of particular health policy
-Get -> /api/homePolicies/homeid  //it fetch the deatils of particular home policy
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+delete of user ---->				       http://localhost:8080/api/userses/id--->													delete
+delete  insurance categorie----->		 http://localhost:8080/api/insurancecategories/id---->   											delete
+delete  home insurance policy----->           http://localhost:8080/api/homeinsurances/id---->												delete
+delete of health insurance policy----->	 http://lost:8080/api/healthinsurances/id---->													delete
+delete admins ---->   				 http://localhost:8080/api/admins/id---->														delete
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+update of user ---->				       http://localhost:8080/api/userses/id--->													put
+update  insurance categorie----->		 http://localhost:8080/api/insurancecategories/id---->   											put
+update  home insurance policy----->           http://localhost:8080/api/homeinsurances/id---->												put
+update of health insurance policy----->	 http://lost:8080/api/healthinsurances/id---->													put
+update admins ---->   				 http://localhost:8080/api/admins/id---->														put
